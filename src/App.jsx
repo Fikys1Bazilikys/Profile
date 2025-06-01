@@ -1,9 +1,19 @@
-function App() {
+import Header from './Header'
+import About from './About.jsx'
+import "./Style.css"
+import Experience from "./Experience.jsx";
+import Education from "./Education.jsx";
+
+
+export default function App() {
     return (
-        <div>
-            <h1>Привіт!</h1>
+        <div className="app">
+            <Header />
+            <div>
+                <About />
+                <Experience />
+                <Education />
+            </div>
         </div>
     );
 }
-
-export default App;

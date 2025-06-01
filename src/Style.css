@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+}
+.profilePhoto{
+    width:200px;
+    border-radius: 50%;
+    border: 10px solid whitesmoke;:
+}
+.header{
+    background-color: blue;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 15vw;
+}
+.header-nav{
+    margin-top: 30px;
+}
+.app{
+    display: flex;
+    flex-direction: row;
+}
+.socialIcon{
+    width: 50px;
+    margin: 10px;
+
+}
+
