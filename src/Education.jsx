@@ -1,5 +1,5 @@
 import educationData from "./Data/EducationData.js";
-import EducationCard from "./EducationCard.jsx";
+import EducationCard from "./Component/EducationCard.jsx";
 
 export default function Education () {
 
@@ -13,7 +13,7 @@ export default function Education () {
     })
 
     return (
-        <div>
+        <div className="education-box">
             <h1>Education</h1>
             {EducationElements}
         </div>
