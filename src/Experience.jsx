@@ -14,7 +14,7 @@ export default function Experience () {
 
     return (
         <div className="experience-box">
-            <h1>Experience</h1>
+            <h1 className="experience-header">Experience</h1>
             {ExperienceElements}
         </div>
     )

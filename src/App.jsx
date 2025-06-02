@@ -11,15 +11,18 @@ import Certifications from "./Certifications.jsx";
 export default function App() {
     return (
         <div className="app">
-            <Header />
-            <div>
+            <header>
+                <Header />
+            </header>
+            <main className="main">
                 <About />
                 <Experience />
                 <Education />
                 <Skills />
                 <Interests />
                 <Certifications />
-            </div>
+            </main>
         </div>
+
     );
 }
