@@ -1,12 +1,12 @@
 export default function ExperiencePlace (props) {
     return (
-        <div>
+        <div className="experiencePlaceBox">
             <div>
-                <h1>{props.position}</h1>
-                <h2>{props.company}</h2>
-                <p>{props.description}</p>
+                <h1 className="experiencePosition">{props.position}</h1>
+                <h3 className="experienceCompany">{props.company}</h3>
+                <p className="experienceDescription">{props.description}</p>
             </div>
-            <data>{props.date}</data>
+            <data className="experienceDate">{props.date}</data>
         </div>
     )
 }

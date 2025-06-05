@@ -83,10 +83,61 @@
     font-weight: 700;
     font-style: normal;
 }
+.experiencePlaceBox{
+    width: 55rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.experiencePosition{
+    font-family: "Saira Extra Condensed", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    text-transform: uppercase;
+}
+.experienceCompany{
+    font-family: "Saira Extra Condensed", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.experienceDescription{
+    font-family: "Saira Extra Condensed", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+.experienceDate{
+    color: green;
+}
+
+
 /*Education*/
 .education-box{
     border-bottom: red solid 2px;
     width: 100%;
+}
+.educationCardBox{
+    width: 55rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.educationPlace{
+    font-family: "Saira Extra Condensed", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+.educationPosition{
+    font-family: "Saira Extra Condensed", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.educationDescription{
+    font-family: "Saira Extra Condensed", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+.educationData{
+    color: green;
 }
 /*Header*/
 .profilePhoto{
