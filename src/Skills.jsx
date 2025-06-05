@@ -13,11 +13,11 @@ export default function Skills () {
     })
 
     return (
-        <div>
-            <h1>Skills</h1>
-            <h2>Programming Languages & Tools</h2>
-            {SkillsElements}
-            <ul>Workflow
+        <div className="skillBox">
+            <h1 className="skillHeader">Skills</h1>
+            <h3 className="skillTools">Programming Languages & Tools</h3>
+            <div className="skillElements">{SkillsElements}</div>
+            <ul className="skillWorkflow">Workflow
                 <li>Mobile-First, Responsive Design</li>
                 <li>Cross Browser Testing & Debugging</li>
                 <li>Cross Functional Teams</li>
