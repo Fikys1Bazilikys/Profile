@@ -6,7 +6,7 @@ export default function Header () {
             <span>
                 <img className="profilePhoto" src={profilePhoto} alt="profilePhoto"></img>
             </span>
-            <ul>
+            <ul className="header-nav-list">
                 <li className="header-nav">ABOUT</li>
                 <li className="header-nav">EXPERIENCE</li>
                 <li className="header-nav">EDUCATION</li>

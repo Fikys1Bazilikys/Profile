@@ -1,12 +1,12 @@
 export default function Certifications () {
     return (
-        <div>
-            <h1>Certifications</h1>
-            <ul>
-                <li>1</li>
-                <li>2</li>
-                <li>2</li>
-                <li>4</li>
+        <div className="certificationsBox">
+            <h1 className="certificationsHeader">Certifications</h1>
+            <ul className="certificationsList">
+                <li className="certificationsListElement">1</li>
+                <li className="certificationsListElement">2</li>
+                <li className="certificationsListElement">2</li>
+                <li className="certificationsListElement">4</li>
             </ul>
         </div>
     )
