@@ -13,7 +13,7 @@ export default function Experience () {
     })
 
     return (
-        <div className="experience-box">
+        <div className="experience-box" id="experience">
             <h1 className="experience-header">Experience</h1>
             {ExperienceElements}
         </div>

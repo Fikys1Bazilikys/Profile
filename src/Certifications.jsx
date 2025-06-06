@@ -1,6 +1,6 @@
 export default function Certifications () {
     return (
-        <div className="certificationsBox">
+        <div className="certificationsBox" id="certifications">
             <h1 className="certificationsHeader">Certifications</h1>
             <ul className="certificationsList">
                 <li className="certificationsListElement">1</li>

@@ -1,6 +1,6 @@
 export default function Interests(){
     return (
-        <div className="interestBox">
+        <div className="interestBox" id="interests">
             <h1 className="interestHeader">Interests</h1>
             <p className="interestDiscription">Apart from being a web developer, I enjoy most of my time being outdoors. In the winter, I am an avid skier and novice ice climber. During the warmer months here in Colorado, I enjoy mountain biking, free climbing, and kayaking.
 

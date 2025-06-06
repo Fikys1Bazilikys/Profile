@@ -14,7 +14,7 @@ export default function About() {
             )
        })
     return (
-        <div className="about-box">
+        <div className="about-box" id="about">
             <h1 className="about-name">
                 Ochkolias <span className="text-primary">Oleksandr</span>
             </h1>

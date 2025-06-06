@@ -13,7 +13,7 @@ export default function Education () {
     })
 
     return (
-        <div className="education-box">
+        <div className="education-box" id="education">
             <h1 className="educationHeader">Education</h1>
             {EducationElements}
         </div>
