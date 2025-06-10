@@ -2,10 +2,10 @@
 export default [
     {
         id: 1,
-        position: "Experience",
-        company: "Full Stack Developer",
+        position: "QA Engineer",
+        company: "TestMatick",
         description: "Full Stack Developer",
-        date: "new",
+        date: "2024 - Present",
     },
     {
         id: 2,

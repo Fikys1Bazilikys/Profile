@@ -1,22 +1,28 @@
-import gitIcon from "../assets/gitPortfolio.jpg";
-import telegramIcon from "../assets/telegramIcon.webp";
-import linkedinIcon from "../assets/linkedinIcon.png";
+import html from "../assets/html.png";
+import css from "../assets/css.png";
+import js from "../assets/js.png";
+import react from "../assets/react.png";
 
 export default [
     {
         id: 1,
-        icon: gitIcon,
+        icon: html,
         alt: "gitIcon",
     },
     {
         id: 2,
-        icon: telegramIcon,
+        icon: css,
         alt: "gitIcon",
 
     },
     {
         id: 3,
-        icon: linkedinIcon,
+        icon: js,
+        alt: "gitIcon",
+    },
+    {
+        id: 4,
+        icon: react,
         alt: "gitIcon",
     }
 ]

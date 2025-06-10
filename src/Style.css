@@ -2,6 +2,7 @@
     /* Font Sizes */
     --fs-sm: 1.25rem;
     --fs-md: 1.5rem;
+    --fs-lg: 2rem;
 
     /* Font Weights */
     --fw-regular: 400;
@@ -12,7 +13,7 @@
     --color-header: #6691E1 ;
     --color-h1: #252B36 ;
     --color-text: #525761 ;
-    --color-border-photo: #525761;
+    --color-border-photo: #7186AD;
 }
 body{
     font-family: "Saira Extra Condensed", sans-serif;
@@ -55,11 +56,23 @@ body{
     font-weight: var(--fw-bold);
     color: var(--color-h1);
 }
+.second-heading{
+    font-size: var(--fs-lg);
+    font-weight: var(--fw-bold);
+    color: var(--color-h1);
+}
+.third-heading{
+    font-size: var(--fs-md);
+    font-weight: var(--fw-medium);
+    color: var(--color-text);
+}
 .description-text{
     font-weight: var(--fw-regular);
     font-size: var(--fs-sm);
     color: var(--color-text);
 }
+
+
 .date-text{
     color: var(--color-header);
 }
@@ -98,6 +111,7 @@ body{
     margin-bottom: 0.5rem;
     color: var(--color-h1);
     text-decoration: none;
+    padding: 0 1rem;
 }
 .header-nav:hover{
     text-decoration: none;
@@ -139,6 +153,7 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+
 }
 .experiencePosition{
     font-weight: var(--fw-medium);
@@ -155,17 +170,9 @@ body{
     flex-direction: row;
     justify-content: space-between;
 }
-.educationPlace{
-    font-weight: var(--fw-medium);
-}
-.educationPosition{
-    font-weight: var(--fw-regular);
-}
 /*Skill*/
 .skillWorkflow{
     padding: 0;
-    font-weight: var(--fw-medium);
-    font-size: var(--fs-md);
 }
 .skills-icon{
     width: 50px;
