@@ -13,16 +13,19 @@ export default function Skills () {
     })
 
     return (
-        <div className="section-box" id="skills">
-            <h1 className="section-header">Skills</h1>
-            <h3 className="skillTools">Programming Languages & Tools</h3>
-            <div className="skillElements">{SkillsElements}</div>
-            <ul className="skillWorkflow">Workflow
-                <li>Mobile-First, Responsive Design</li>
-                <li>Cross Browser Testing & Debugging</li>
-                <li>Cross Functional Teams</li>
-                <li>Agile Development & Scrum</li>
-            </ul>
-        </div>
+        <section className="section-box" id="skills">
+            <div className="section-content-box">
+                <h1 className="section-header">Skills</h1>
+                <h3 className="description-text">Programming Languages & Tools</h3>
+                <div className="flex-row">{SkillsElements}</div>
+                <div className="skillWorkflow">Workflow</div>
+                <ul>
+                    <li className="description-text">Mobile-First, Responsive Design</li>
+                    <li className="description-text">Cross Browser Testing & Debugging</li>
+                    <li className="description-text">Cross Functional Teams</li>
+                    <li className="description-text">Agile Development & Scrum</li>
+                </ul>
+            </div>
+        </section>
     )
 }

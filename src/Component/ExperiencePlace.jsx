@@ -4,9 +4,9 @@ export default function ExperiencePlace (props) {
             <div>
                 <h1 className="experiencePosition">{props.position}</h1>
                 <h3 className="experienceCompany">{props.company}</h3>
-                <p className="experienceDescription">{props.description}</p>
+                <p className="description-text">{props.description}</p>
             </div>
-            <data className="experienceDate">{props.date}</data>
+            <data className="date-text">{props.date}</data>
         </div>
     )
 }

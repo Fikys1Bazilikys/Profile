@@ -13,9 +13,10 @@ export default function Experience () {
     })
 
     return (
-        <div className="section-box" id="experience">
+        <section className="section-box" id="experience">
+            <div className="section-content-box"></div>
             <h1 className="section-header">Experience</h1>
             {ExperienceElements}
-        </div>
+        </section>
     )
 }
