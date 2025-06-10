@@ -1,7 +1,7 @@
 export default function Certifications () {
     return (
-        <div className="certificationsBox" id="certifications">
-            <h1 className="certificationsHeader">Certifications</h1>
+        <div className="section-box" id="certifications">
+            <h1 className="section-header">Certifications</h1>
             <ul className="certificationsList">
                 <li className="certificationsListElement">1</li>
                 <li className="certificationsListElement">2</li>
