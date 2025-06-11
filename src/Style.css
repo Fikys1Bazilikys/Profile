@@ -1,7 +1,7 @@
 :root {
     /* Font Sizes */
-    --fs-sm: 1.25rem;
-    --fs-md: 1.5rem;
+    --fs-sm: 1.5rem;
+    --fs-md: 1.75rem;
     --fs-lg: 2rem;
 
     /* Font Weights */
@@ -71,10 +71,10 @@ body{
     font-size: var(--fs-sm);
     color: var(--color-text);
 }
-
-
 .date-text{
     color: var(--color-header);
+    font-weight: var(--fw-regular);
+    font-size: var(--fs-sm);
 }
 .flex-row {
     display: flex;
@@ -110,6 +110,7 @@ body{
 .header-nav{
     margin-bottom: 0.5rem;
     color: var(--color-h1);
+    font-size: var(--fs-sm);
     text-decoration: none;
     padding: 0 1rem;
 }
@@ -131,6 +132,7 @@ body{
 }
 .text-primary{
     color: var(--color-header);
+    text-decoration: none;
 }
 .about-contact{
     font-weight: var(--fw-medium);
@@ -153,7 +155,6 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-
 }
 .experiencePosition{
     font-weight: var(--fw-medium);

@@ -14,8 +14,6 @@ export default function Header () {
                 <a className="header-nav" href={"#interests"}>INTERESTS</a>
                 <a className="header-nav" href={"#certifications"}>CERTIFICATIONS</a>
             </ul>
-
         </header>
     )
 }
-
