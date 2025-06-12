@@ -24,7 +24,7 @@ export default function About() {
                 }}>fikysik69@gmail.com</a>
                 </p>
 
-                <p className="about-info">I am experienced in leveraging agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition.</p>
+                <p className="about-info">I build responsive, user-friendly web interfaces using React, modern JavaScript, and clean CSS. With a background in software testing, I focus on writing reliable, maintainable code and delivering real value through every component I create.</p>
                 <div className="flex-row">
                     {SocialElements}
                 </div>

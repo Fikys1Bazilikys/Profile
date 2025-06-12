@@ -4,7 +4,7 @@ export default [
         id: 1,
         position: "QA Engineer",
         company: "TestMatick",
-        description: "Full Stack Developer",
+        description: "Worked as a QA tester on web and mobile application projects — performed manual testing, wrote test cases, and identified critical bugs in early development stages. Collaborated with developers and business analysts to ensure product quality, stability, and alignment with user requirements.",
         date: "2024 - Present",
     },
     {
