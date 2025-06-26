@@ -1,17 +1,8 @@
 import "./Style.css"
-import socialData from "./Data/SocialData.js";
 import SocialIcon from "./Component/SocialIcon.jsx";
 
 export default function About() {
 
-    const SocialElements = socialData.map ((element) => {
-            return (
-                <SocialIcon
-                    key={element.id}
-                    {...element}
-                />
-            )
-       })
     return (
         <section className="section-box" id="about">
             <div className="section-content-box">
@@ -26,7 +17,7 @@ export default function About() {
 
                 <p className="about-info">I build responsive, user-friendly web interfaces using React, modern JavaScript, and clean CSS. With a background in software testing, I focus on writing reliable, maintainable code and delivering real value through every component I create.</p>
                 <div className="flex-row">
-                    {SocialElements}
+                    <SocialIcon />
                 </div>
             </div>
         </section>

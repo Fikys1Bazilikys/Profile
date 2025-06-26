@@ -1,6 +1,13 @@
-export default function SkillsIcon(props){
-    return (
-        <img className="skills-icon" src={props.icon} alt={props.alt}></img>
+import skillsIconData from "../Data/SkillsIconData.js";
 
+export default function SkillsIcon(){
+    return (
+        <div style={{ display: 'flex', gap: 16 }}>
+            {skillsIconData.map(({ id, icon: Icon, alt, color }) => (
+                <div key={id} title={alt}>
+                    <Icon size={55} color={color} />
+                </div>
+            ))}
+        </div>
     )
 }

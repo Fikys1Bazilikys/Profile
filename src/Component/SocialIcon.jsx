@@ -1,7 +1,13 @@
-export default function SocialIcon (props) {
+import socialData from "../Data/SocialData.js";
+
+export default function SocialIcon () {
     return (
-        <a href={props.link} target="_blank" rel="noopener noreferrer">
-            <img className="socialIcon" src={props.icon} alt={props.alt} />
-        </a>
+        <div style={{ display: 'flex', gap: 26 }}>
+            {socialData.map(({ id, icon: Icon, link, alt }) => (
+                <a href={link} key={id} target="_blank" rel="noopener noreferrer" title={alt}>
+                    <Icon size={54} color="#495057" />
+                </a>
+            ))}
+        </div>
     )
 }
