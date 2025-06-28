@@ -5,7 +5,7 @@ export default function SkillsIcon(){
         <div style={{ display: 'flex', gap: 16 }}>
             {skillsIconData.map(({ id, icon: Icon, alt, color }) => (
                 <div key={id} title={alt}>
-                    <Icon size={55} color={color} />
+                    <Icon size={56} color={color} />
                 </div>
             ))}
         </div>

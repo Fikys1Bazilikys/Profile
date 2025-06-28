@@ -15,7 +15,7 @@ export default function About() {
                 }}>fikysik69@gmail.com</a>
                 </p>
 
-                <p className="about-info">I build responsive, user-friendly web interfaces using React, modern JavaScript, and clean CSS. With a background in software testing, I focus on writing reliable, maintainable code and delivering real value through every component I create.</p>
+                <p className="about-info description-text">I build responsive, user-friendly web interfaces using React, modern JavaScript, and clean CSS. With a background in software testing, I focus on writing reliable, maintainable code and delivering real value through every component I create.</p>
                 <div className="flex-row">
                     <SocialIcon />
                 </div>

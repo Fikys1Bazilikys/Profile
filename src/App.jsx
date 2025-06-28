@@ -9,18 +9,21 @@ import Certifications from "./Certifications.jsx";
 
 
 export default function App() {
+
+    const sections = [
+        About,
+        Experience,
+        Education,
+        Skills,
+        Interests,
+        Certifications,
+    ];
+
     return (
         <div className="app">
-            <header>
-                <Header />
-            </header>
+            <Header />
             <main className="main">
-                <About />
-                <Experience />
-                <Education />
-                <Skills />
-                <Interests />
-                <Certifications />
+                {sections.map((Section, idx) => <Section key={idx} />)}
             </main>
         </div>
 
