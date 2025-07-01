@@ -17,6 +17,7 @@
 
 }
 html{
+    font-size: 16px;
     scroll-behavior: smooth;
 }
 body{
@@ -179,7 +180,7 @@ body{
 }
 /*Education*/
 .educationCardBox{
-    width: 55rem;
+    width: 70%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
