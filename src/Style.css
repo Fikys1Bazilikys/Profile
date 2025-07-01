@@ -169,6 +169,7 @@ body{
 }
 
 .experiencePosition{
+    font-size: var(--fs-lg);
     font-weight: var(--fw-medium);
     text-transform: uppercase;
 }
