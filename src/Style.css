@@ -54,7 +54,7 @@ body{
 
 }
 .section-content-box{
-    width: 70%;
+    width: 100%;
 }
 .section-header{
     margin-bottom: 3rem;
@@ -106,6 +106,15 @@ body{
     height: 100vh;
     width: 19rem;
 }
+@media (max-width: 768px) {
+    .header{
+        display: none;
+    }
+    .main{
+        margin-left: 0;
+    }
+
+}
 .header-nav-list{
     display: flex;
     flex-direction: column;
@@ -156,6 +165,7 @@ body{
 .about-info {
     font-size: var(--fs-md);
     margin-bottom: 3rem;
+    width: 70%;
 }
 .socialIcon{
     width: 50px;
