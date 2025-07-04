@@ -23,35 +23,33 @@ html{
 body{
     font-family: "Saira Extra Condensed", sans-serif;
     font-style: normal;
-
 }
 *{
     margin: 0;
-    overflow-x: hidden;
     box-sizing: border-box;
+}
+ul{
+    list-style: none;
 }
 .main{
     display: flex;
     flex-direction: column;
-    margin-left: 19rem;
     flex: 1;
     min-width: 0;
+    margin-left: 19rem;
 }
 .app{
     display: flex;
-    flex-direction: row;
-    overflow-x: hidden;
-
+    flex-direction: column;
 }
 .section-box{
     display: flex;
     border-bottom: var(--color-text) solid 2px;
     height: 100vh;
-    align-items: flex-start;
+    align-items: center;
     justify-content: center;
     flex-direction: column;
-    padding: 0 3rem;
-
+    padding: 5rem 3rem;
 }
 .section-content-box{
     width: 100%;
@@ -113,7 +111,6 @@ body{
     .main{
         margin-left: 0;
     }
-
 }
 .header-nav-list{
     display: flex;
@@ -123,8 +120,6 @@ body{
     padding: 0;
     font-size: var(--fs-md);
     font-weight: var(--fw-bold);
-
-
 }
 .header-nav{
     margin-bottom: 0.5rem;
@@ -133,7 +128,6 @@ body{
     font-size: var(--fs-sm);
     text-decoration: none;
     padding: 0 1rem;
-
 }
 .header-nav:hover{
     text-decoration: none;
@@ -178,7 +172,6 @@ body{
     flex-direction: row;
     justify-content: space-between;
 }
-
 .experiencePosition{
     font-size: var(--fs-lg);
     font-weight: var(--fw-medium);
@@ -187,13 +180,6 @@ body{
 .experienceCompany{
     font-weight: var(--fw-medium);
     font-size: var(--fs-md);
-}
-/*Education*/
-.educationCardBox{
-    width: 70%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
 }
 /*Skill*/
 .skillWorkflow{
