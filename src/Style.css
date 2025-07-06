@@ -38,6 +38,13 @@ ul{
     min-width: 0;
     margin-left: 19rem;
 }
+.section-inner {
+    width: 100%;
+    max-width: 960px;
+    padding: 0 1.5rem;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
 .app{
     display: flex;
     flex-direction: column;
@@ -106,14 +113,6 @@ ul{
     height: 100vh;
     width: 19rem;
 }
-@media (max-width: 768px) {
-    .header{
-        display: none;
-    }
-    .main{
-        margin-left: 0;
-    }
-}
 .header-nav-list{
     display: flex;
     flex-direction: column;
@@ -155,7 +154,8 @@ ul{
     font-weight: var(--fw-medium);
     text-transform: uppercase;
     font-size: var(--fs-md);
-    margin-bottom: 3rem;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
     color: var(--color-text);
 }
 .about-info {
@@ -163,9 +163,9 @@ ul{
     margin-bottom: 3rem;
     width: 70%;
 }
-.socialIcon{
-    width: 50px;
-    margin-right: 10px;
+.social-icon{
+    font-size: 4rem;
+    color: #495057;
 }
 /*Experience*/
 .experiencePlaceBox{
@@ -174,8 +174,6 @@ ul{
     flex-direction: column;
     justify-content: space-between;
     gap: 1rem;
-
-
 }
 .experiencePosition{
     font-size: var(--fs-lg);
@@ -201,4 +199,54 @@ ul{
     justify-content: center;
     font-size: 1.5rem;
     font-weight: 700;
+}
+
+@media (max-width: 768px) {
+    .about-name{
+        font-size: 3.2rem;
+        text-align: start;
+
+    }
+    .section-header {
+        font-size: 2.2rem;
+        text-align: start;
+    }
+    .section-box{
+        padding: 5rem 1.5rem;
+    }
+    .experiencePlaceBox {
+        width: 90%;
+
+    }
+    .experiencePosition {
+        font-size: 1.4rem;
+        text-align: left;
+    }
+    .third-heading {
+        font-size: 1.2rem;
+        text-align: left;
+    }
+    .description-text {
+        font-size: 1rem;
+        text-align: left;
+    }
+    .date-text {
+        font-size: 1rem;
+    }
+    .about-info {
+        width: 100%;
+        font-size: 1.2rem;
+    }
+    .about-contact {
+        font-size: 1.2rem;
+    }
+    .header {
+        display: none;
+    }
+    .main {
+        margin-left: 0;
+    }
+    .social-icon {
+        font-size: 3rem;
+    }
 }
