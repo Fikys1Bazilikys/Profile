@@ -50,9 +50,11 @@ ul{
     justify-content: center;
     flex-direction: column;
     padding: 5rem 3rem;
+
 }
 .section-content-box{
     width: 100%;
+
 }
 .section-header{
     margin-bottom: 3rem;
@@ -169,8 +171,11 @@ ul{
 .experiencePlaceBox{
     width: 70%;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-between;
+    gap: 1rem;
+
+
 }
 .experiencePosition{
     font-size: var(--fs-lg);
