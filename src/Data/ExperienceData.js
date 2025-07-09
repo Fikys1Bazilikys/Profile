@@ -2,7 +2,7 @@
 export default [
     {
         id: 1,
-        position: "Frontend Developer (Self-Taught)",
+        position: "Frontend Developer",
         company: "Personal Projects",
         description: " Designed and developed a personal portfolio website using React, Vite, and modular CSS. Focused on responsive design,\n" +
             "      intuitive layout, and clean component structure. Currently working on a mobile application using React Native,\n" +

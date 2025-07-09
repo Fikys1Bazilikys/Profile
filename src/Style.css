@@ -1,6 +1,6 @@
 :root {
     /* Font Sizes */
-    --fs-sm: 1.5rem;
+    --fs-sm: 1.6rem;
     --fs-md: 1.75rem;
     --fs-lg: 2rem;
 
@@ -23,6 +23,7 @@ html{
 body{
     font-family: "Saira Extra Condensed", sans-serif;
     font-style: normal;
+    line-height: 1.5;
 }
 *{
     margin: 0;
@@ -30,13 +31,14 @@ body{
 }
 ul{
     list-style: none;
+    box-sizing: border-box;
 }
 .main{
     display: flex;
     flex-direction: column;
     flex: 1;
     min-width: 0;
-    margin-left: 19rem;
+    margin-left: 17rem;
 }
 .section-inner {
     width: 100%;
@@ -52,12 +54,19 @@ ul{
 .section-box{
     display: flex;
     border-bottom: var(--color-text) solid 2px;
-    min-height: 100vh;
+    min-height: 70vh;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     padding: 5rem 3rem;
 
+
+}
+.mr1{
+    margin-bottom: 1rem;
+}
+.mr2{
+    margin-bottom: 2rem;
 }
 .section-content-box{
     width: 100%;
@@ -111,7 +120,7 @@ ul{
     justify-content: center;
     align-items: center;
     height: 100vh;
-    width: 19rem;
+    width: 17rem;
 }
 .header-nav-list{
     display: flex;
@@ -159,12 +168,12 @@ ul{
     color: var(--color-text);
 }
 .about-info {
-    font-size: var(--fs-md);
+
     margin-bottom: 3rem;
     width: 70%;
 }
 .social-icon{
-    font-size: 4rem;
+    font-size: 3.5rem;
     color: #495057;
 }
 /*Experience*/
@@ -188,8 +197,12 @@ ul{
 .skillWorkflow{
     padding: 0;
 }
+.skills-icon-box{
+    display: flex;
+    gap: 0.5rem;
+}
 .skills-icon{
-    font-size: 4rem;
+    font-size: 3.5rem;
 }
 /*Certifications*/
 .certificationsList{
@@ -204,44 +217,35 @@ ul{
 
 @media (max-width: 768px) {
     .about-name{
-        font-size: 3.2rem;
+        font-size: 3rem;
         text-align: start;
 
-    }
-    .section-header {
-        font-size: 2.2rem;
-        text-align: start;
     }
     .section-box{
         padding: 5rem 1.5rem;
         height: auto;
         min-height: auto;
     }
-    .experiencePlaceBox {
-        width: 90%;
-
+    .section-header{
+        font-size: 2rem;
     }
     .experiencePosition {
-        font-size: 1.4rem;
+        font-size: 1.5rem;
         text-align: left;
     }
     .third-heading {
-        font-size: 1.2rem;
+        font-size: 1.5rem;
         text-align: left;
     }
     .description-text {
-        font-size: 1rem;
+        font-size: 1.4rem;
         text-align: left;
     }
     .date-text {
-        font-size: 1rem;
-    }
-    .about-info {
-        width: 100%;
-        font-size: 1.2rem;
+        font-size: 1.4rem;
     }
     .about-contact {
-        font-size: 1.2rem;
+        font-size: 1.4rem;
     }
     .header {
         display: none;
@@ -254,5 +258,13 @@ ul{
     }
     .skills-icon{
         font-size: 3rem;
+    }
+}
+@media (max-width: 330px) {
+    .social-icon {
+        font-size: 2.5rem;
+    }
+    .skills-icon{
+        font-size: 2.5rem;
     }
 }
