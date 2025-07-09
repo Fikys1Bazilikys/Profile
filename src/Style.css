@@ -32,6 +32,7 @@ body{
 ul{
     list-style: none;
     box-sizing: border-box;
+    position: relative;
 }
 .main{
     display: flex;
@@ -68,7 +69,6 @@ ul{
 }
 .section-content-box{
     width: 100%;
-
 }
 .section-header{
     margin-bottom: 3rem;
@@ -167,7 +167,6 @@ ul{
     color: var(--color-text);
 }
 .about-info {
-
     margin-bottom: 3rem;
     width: 70%;
 }
@@ -211,8 +210,20 @@ ul{
     justify-content: center;
     font-size: 1.5rem;
     font-weight: 700;
+    padding: 0;
+    margin: 0;
 }
-
+.certification-cup{
+    color: #ffc107;
+    font-size: 1.7rem;
+    flex-shrink: 0;
+    margin-top: 0.2rem;
+}
+.certification-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+}
 
 @media (max-width: 768px) {
     .about-name{
