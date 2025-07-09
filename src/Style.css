@@ -105,10 +105,10 @@ ul{
 }
 /*Header*/
 .profilePhoto{
-    width:12rem;
-    height:12rem;
+    width:10rem;
+    height:10rem;
     border-radius: 50%;
-    border: 10px solid var(--color-border-photo);
+    border: 0.5rem solid var(--color-border-photo);
     margin-bottom: 1rem;
 }
 .header{
@@ -212,6 +212,7 @@ ul{
     font-weight: 700;
     padding: 0;
     margin: 0;
+    gap: 1rem;
 }
 .certification-cup{
     color: #ffc107;

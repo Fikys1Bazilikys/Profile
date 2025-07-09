@@ -7,7 +7,7 @@ export default function Certifications () {
         <section className="section-box" id="certifications">
             <div className="section-content-box">
                 <h1 className="section-header">Certifications</h1>
-                <ul className="certificationsList" style={{ display: 'flex', flexDirection: 'column', gap: 16 }}>
+                <ul className="certificationsList">
                     <li className="certification-item">
                         <span><FaAward className="certification-cup" /></span>
                         <p className="description-text">Cherkasy State Technological University - 2017 - 2021</p>

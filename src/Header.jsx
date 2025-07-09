@@ -1,4 +1,4 @@
-import ProfilePhoto from './assets/LEGO.png';
+import ProfilePhoto from './assets/Portfolio-photo.jpg';
 import "./Style.css"
 export default function Header () {
     return (
